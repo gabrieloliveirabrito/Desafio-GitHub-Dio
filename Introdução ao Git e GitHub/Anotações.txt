@@ -1,0 +1,38 @@
+Comandos Básicos:
+
+WINDOWS
+
+- Tecla Windows (janelinha)
+  digita "cmd" > Clicar em Prompt de Comando
+	Ele abre o terminal do windows na pasta padrão
+  
+  1º Comando de Navegação - Listar
+   Aprender se situar dentro do sistema operacional e entender em qual local estamos
+     Comando: "dir" e clica em enter - traz uma lista de diretórios contidas na pasta na qual estamos situados (ou seja: em C/user/USUARIO). No LINUX, o comando é "ls".
+    
+  2º Comando - cd (change directory) 
+   Vai possibilitar a navegação entre as pastas e é igual para todos os sistemas operacionais
+      Comando:  "cd /" (/ = caminho específico) + enter - leva para a base do diretório C
+           Ex.: se usar o dir ele vai listar as pastas presentes na base do diretório C. 
+      Há outros símbolos para outros caminhos além do "/", como o: cd Windows (entra na pasta windows).
+      Comando: "cd .." - retorna para a pasta anterior
+      
+   3º Comando - cls (clear screen) 
+    Para limpar a tela do terminal.
+    - Obs.: Tecla TAB funciona como autocompletar, ou seja, se digitar "cd W__" ele completa a palavra windows.
+   
+   4º Comando - mkdir (criar uma pasta)
+    Comando: mkdir workspace (vai ser usado no decorrer do curso)
+    - Obs.: Silence on Success - conceito em que se der tudo certo o terminal não vai mostrar nada ao dar o comando e enter
+    
+   5º Comando - echo 
+    Criar arquivo direto pelo terminal. O comando echo vai printar de volta no terminal uma frase ou texto que vc passa (ex.: echo hello.... vai aparecer hello)
+    ">" esse símbolo é um redirecionador de fluxo
+    Ex.: echo hello > hello.txt
+    
+   6º Comando - del (delete) (arquivos)
+    Se digitar, por exemplo, "del workspace" o terminal questiona se tem certeza que vai querer deletar a pasta, porém ele vai deletar apenas o que está dentro da pasta workspace e não a pasta em si.
+    - Obs.: A seta pra cima navega entre o histórico de comandos q já executou no terminal.
+     
+   7º Comando - rmdir (deletar repositório e arquivos dentro dele)
+    Digitando, por exemplo, "rmdir workspace" e para simplificar usa duas flags "/S" e "/Q" 
